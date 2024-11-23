@@ -1,7 +1,7 @@
 import requests
 import json
 
-BASE_URL = "http://127.0.0.1:5000"
+BASE_URL = "https://music-recommendation-system-qirr.onrender.com"
 
 # Function to test the /recommend endpoint
 def test_recommend(song_name):
